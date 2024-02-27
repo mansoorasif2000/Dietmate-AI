@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    scroll-behavior: smooth;
+
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #F8F9FA;
+
+}
+
+/* #containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+} */
+
+
+
+  
+
+
+
+.nav-bar {
+    width: Hug (370.12px);
+    height: Fixed (26px);
+    top: 37px;
+    left: 468px;
+    padding: 10px;
+    gap: 35px;
+    /* background-color: #5ceca7; */
+    margin-left: auto;
+
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn-1 {
+    width: (200px);
+    height: Hug (40px);
+    top: 30px;
+    left: 978px;
+    padding: 13px, 55px, 13px, 50px;
+    border-radius: 5px;
+    border: 1px solid #005766;
+    gap: 10px;
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    cursor: pointer;
+
+}
+.btn-1:hover{
+    border: 1px solid #005766;
+
+}
+
+
+.btn-2 {
+    width: Fixed (121px);
+    height: Hug (40px);
+    top: 30px;
+    left: 1137px;
+    padding: 13px, 30px, 13px, 30px;
+    border-radius: 5px;
+    border: 1px solid #005766;
+    background-color: #005766;
+    color: #FFFFFFB2;
+}
+.btn-2:hover{
+    background-color:#005766 ;
+}
+
+
+/* ********************************************************** */
+
+
+/* hero page */
+
+
+
+#hero {
+    /* border: 2px solid black; */
+    /* height: auto; */
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content h1 {
+    text-transform: uppercase;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00BF63;
+}
+
+.content h1 span {
+    color: #005766;
+}
+
+.content p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.3em;
+    text-align: left;
+    color: #40818C;
+    text-transform: uppercase;
+}
+
+.custom-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 7px 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00BF63;
+    color: #FFFFFFB2;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+
+.custom-button:hover {
+    background-color: #009c51;
+    /* Darker shade of green on hover */
+}
+
+.robo-content {
+    /* background-color: aquamarine; */
+    text-align: center;
+
+}
+
+.robo {
+    width: 50%;
+    max-width: 100%;
+    max-height: 470px;
+}
+
+
+
+/* second page  */
+
+#main {
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+.content-main p {
+    font-family: Inter;
+    /* font-size: 40px; */
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00BF63;
+    margin: 0;
+}
+
+.content-main h1 {
+    margin: 0;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #005766;
+    text-transform: uppercase;
+}
+
+.content-main p{
+    margin-top: 15px;
+    color: #00BF63;
+    font-family: Inter;
+font-size: 20px;
+/* font-weight: 400; */
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+justify-content: center;
+text-transform: uppercase;
+
+}
+.group-1{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.group-2{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.group-2 .vec-1{
+    margin-left: 8rem;
+}
+.group-2 .vec-2{
+    /* display: flex;
+    align-items:center; */
+    margin-left: -90px;
+}
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 4rem;
+    width: 37%;
+    margin: auto;
+    /* height: 70%; */
+    z-index: 1; 
+    /* background-color: aqua; */
+}
+
+/* .panda-sect{
+    border: 1px solid black;
+    background-color: cadetblue;
+} */
+.panda-sect p{
+    font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
+.panda-sect .custom-button1{
+    width: fit-content;
+    height: fit-content;
+    padding: 7px 80px;
+    border: 1px solid #05391C;
+    border-radius: 4px;
+    /* background-color: #00BF63; */
+    color: #05391C;
+    font-size: 17px;
+    cursor: pointer;
+    /* outline: none; */
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0.1em;
+text-align: left;
+}
+
+
+
+/* ******************************************************** */
+
+/* cards section */
+.cards{
+    /* border: 1px solid black; */
+    margin-top: 6rem;
+}
+.cards .bg-btn{
+    background-color: #02153f;
+    color: #FFFFFF;
+    margin: 5rem auto;
+    padding: 8px 30px;
+    font-family: Inter;
+    text-transform: uppercase;
+font-size: 14px;
+/* font-weight: 700; */
+line-height: 14px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+.cards .card-title{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cards .card-text{
+    color: #FFFFFF;
+    /* font-size: 16px; */
+    font-family: Inter;
+font-family: Inter;
+font-size: 14px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+.cards .card{
+    width: 100%;
+height: 350px;
+background-color: #00BF63;
+}
+
+
+/* <!-- Supported Integrated -------------------------------------------> */
+    
+.supp-integ{
+    /* border: 2px solid black; */
+    margin-top: 10rem;
+}
+/* ******************************************************** */
+/* card images */
+#card-images{
+    /* border: 2px solid black; */
+    margin-top: 8rem;
+  
+}
+/* #card-images .c{
+    display: flex;
+    justify-content: space-evenly;
+} */
+#card-images .card{
+    background-color: #00BF63;
+    height: 430px;
+    width: 375px;
+}
+.card-body{
+    /* border: 1px solid black; */
+    height: auto;
+}
+.card-body .card-title{
+    color: #FFFFFF;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+/* text-align: left; */
+
+}
+.card-body p{
+    color: #FFFFFF80;
+    font-size: 13px;
+}
+.card-body .card-text{
+    color: #FFFFFF;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 200;
+/* line-height: 16px; */
+letter-spacing: 0em;
+/* text-align: left; */
+
+}
+.card-body .btn-card{
+    width: Hug (277px);
+height: Hug (40px);
+top: 4002px;
+left: 581px;
+padding: 13px, 79px, 13px, 79px;
+border-radius: 5px;
+gap: 10px;
+background-color: #005766;
+border: 1px solid #005766;
+font-weight: 600;
+
+}
+.card-body .btn-card:hover{
+    background-color: #005766;
+    border: 1px solid #005766; 
+}
+.botm-btn{
+    /* border: 1px solid black; */
+    margin-top: 40px;  
+}
+
+.botm-btn .btn{
+padding: 10px 0;
+border-radius: 4px;
+border: 1px solid #00BF63;
+color: #00BF63;
+/* gap: 10px; */
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0.15em;
+text-align: center;
+align-items: center;
+margin: auto;
+display: block;
+width: 28%;
+}
+/* *************************************************************************** */
+
+/* Footer */
+
+.footer {
+    margin-top: 10rem;
+    background-color: #00BF63; /* Footer background color */
+    color: #fff; /* Text color */
+    padding: 50px 0; /* Padding top and bottom */
+}
+.footer-text {
+    margin-bottom: 20px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px; /* Adjust the position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust the width and height of the icon */
+    height: auto;
+    z-index: 1;
+    pointer-events: none; /* Ensure the icon doesn't interfere with input events */
+}
+
+/* Adjust the padding to make space for the icon */
+.form-control {
+    padding-left: 40px; 
+    background-color: transparent; 
+}
+.form-group input[type="email"]::placeholder {
+    color: white;
+}
+ 
+.footer-links {
+    margin-bottom: 20px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    /* margin: 7px; */
+    padding: 0 4px;
+    font-size: 12px;
+}
+.footer img {
+    max-width: 100%;
+}
+.foot-img{
+    position: relative;
+    /* border: 2px solid black; */
+  
+
+}
+.foot-img img{
+    position: absolute;
+    top: -120px;
+    right: 0;
+}
+
+.footer-bottom {
+    background: #070707c5;
+    padding: 8px 0px;
+}
+.footer-bottom ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 17px;
+}
+.footer-bottom ul li a{
+    color:#fff;
+}
+
+.footer-bottom ul {
+    float: right;
+}
+
+.footer-bottom ul li:last-child {
+    margin-right: 0;
+}
+.copyright {
+    font-size: 16px;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
