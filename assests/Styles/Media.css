@@ -16,10 +16,12 @@
         font-size: 16px;
         font-weight: 500;
     }
-    .robo-content{
-      height: 10%;
+
+    .robo-content {
+        height: 10%;
     }
-    .robo{
+
+    .robo {
         height: 100%;
         width: 70%;
     }
@@ -28,143 +30,194 @@
 
 @media screen and (max-width: 430px) {
     .content-main h1 {
-        font-size: 25px; /* Adjust font size for smaller screens */
+        font-size: 25px;
     }
 
     .content-main p {
-        font-size: 16px; /* Adjust font size for smaller screens */
-    }
-   
-    .group-1, .group-2 {
-        margin-top: 10px; /* Reduce margin for small screens */
-    }
-    .group-1 .l-img{
-        width: 90%;
-    }
-    .group-1 .r-img{
-        width: 90%;
+        font-size: 16px;
     }
 
-    .group-1, .group-2, .img-overlay {
-        width: 90%; /* Adjust width for small screens */
-        margin-left: auto;
-        margin-right: auto;
-    }
+    .group-1,
+    .group-2 {
+        margin-top: 10px;
 
-    /* .group-2 .vec-1{
-        width: 80%;
-        left: 20%;
-    } */
-    .group-2 .vec-1, .group-2 .vec-2 {
-        margin-left: 0; /* Remove margin for small screens */
-        width: 90%;
-    }
+        .group-1 .l-img {
+            width: 90%;
+        }
 
-    .img-overlay {
-        left: 25px;
-        width: 50%; /* Adjust width for small screens */
-    }
-    .panda-sect {
-        padding: 10px; /* Reduce padding for small screens */
-    }
+        .group-1 .r-img {
+            width: 90%;
+        }
 
-    .panda-sect .custom-button1 {
-        padding: 7px 40px; /* Adjust button padding for small screens */
-        font-size: 14px; /* Adjust font size for small screens */
-        margin-top: 10px; /* Reduce margin for small screens */
-    }
+        .group-1,
+        .group-2,
+        .img-overlay {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-    .cards .card{
+
+        .group-2 .vec-1,
+        .group-2 .vec-2 {
+            margin-left: 0;
+            width: 90%;
+        }
+
+        .img-overlay {
+            left: 25px;
+            width: 50%;
+        }
+
+        .panda-sect {
+            padding: 10px;
+        }
+
+        .panda-sect .custom-button1 {
+            padding: 7px 40px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .cards .card {
+            margin: 10px;
+            
+        }
+
+        .cards .card-title {
+            font-size: 20px;
+        }
+
+        .cards .card-text {
+            font-size: 15px;
+        }
+
+        .supp-integ {
+            margin-top: 5rem;
+        }
+
+        #card-images .card {
+            margin: auto;
+            width: 100%;
+        }
+
+        .botm-btn {
+            margin-top: 40px;
+            border: 2px solid black;
+        }
+
+        .botm-btn .btn {
+            width: 70%;
+            font-size: 14px;
+            padding: 8px 10px;
+        }
+
+        .foot-img img {
+            display: none;
+        }
+
+
+
+        .footer {
+            padding: 20px 0;
+
+        }
+
+
+
+
+        .footer-text,
+        .footer-links {
+            margin-bottom: 5px;
+        }
+
+        .footer-text .dots {
+            font-size: 9px;
+        }
+
+        .footer-bottom ul li {
+            font-size: 15px;
+            margin: 0 5px;
+        }
+
+        .hola {
+            position: absolute;
+            background-image: url(/assests/Images/Ellipse\ 2.png);
+            filter: blur(100px);
+            right: 0;
+            top: 400px;
+            height: 400px;
+        }
+
+
+        .sideblur {
+            position: absolute;
+            background-image: url(/assests/Images/Ellipse\ 3.png);
+            filter: blur(100px);
+            left: 0;
+            width: 42%;
+            height: 670px;
+            top: 1100px;
+        }
+
+    }
+}
+
+
+
+
+/* 375px */
+@media screen and (max-width: 375px) {
+
+    .cards .card {
         margin: 10px;
-    }
-    .cards .card-title{
-        font-size: 20px;
-    }
-    .cards .card-text{
-        font-size: 15px;
+        
     }
 
-    .supp-integ {
-        margin-top: 5rem; /* Adjust margin for smaller screens */
+    .cards .bg-btn {
+        font-size: 13px;
+        font-weight: 600;
+        padding: 10px 20px;
     }
 
-    #card-images .card{
-        margin: auto;
-        width: 100%;
+    .footer-bottom .copyright {
+        font-size: 13px;
+        align-items: center;
+        padding-top: 10px;
     }
-    .botm-btn {
-        margin-top: 40px; /* Adjust margin for smaller screens */
-        /* border: 2px solid black; */
-    }
-
-    .botm-btn .btn {
-        width: 70%;
-        font-size: 14px; /* Adjust font size for smaller screens */
-        padding: 8px 0; /* Adjust padding for smaller screens */
-    }
-    .foot-img img{
-        display: none;
-    }
-    /* .footer {
-        padding: 30px 0;
-        margin-top: 5rem; 
-        background-image: url('/assests/Images/robot\ 2\ \(1\).png'); 
-        background-size: cover; 
-        background-position: center; 
-        color: #fff;
-        text-align: center;
-        position: relative;
-    }
-    .footer::before {
-        content: '';
+    .sideblur {
         position: absolute;
-        top: 0;
+        background-image: url(/assests/Images/Ellipse\ 3.png);
+        filter: blur(100px);
         left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0.1;
-        background: rgba(0, 151, 19, 0.3);
-       
-        z-index: -1;
+        width: 36%;
+        height: 670px;
+        top: 1100px;
     }
-
-    .footer-text,
-    .footer-links {
-        margin-bottom: 10px; 
+    .panda-sect .custom-button1 {
+        padding: 7px 40px;
+        font-size: 12px;
+        margin-top: 10px;
     }
-
-
-
-    .footer-bottom ul li {
-        font-size: 14px; 
-        margin-right: 10px; 
-    } */
-
-
-    .footer {
-        padding: 20px 0; 
-        /* margin-top: 3rem; 
-        position: relative; */
+    .botm-btn .btn {
+        width: 60%;
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    
+    
+    .footer-text .dots {
+        font-size: 10px;
     }
 
 
-    /* .footer::before {
-        content: '';
-        position: absolute;
-        opacity: 0.2; 
-    } */
+}
 
-    .footer-text,
-    .footer-links {
-        margin-bottom: 5px; /* Adjust margin for smaller screens */
-    }
-    .footer-text .dots{
-        font-size: 9px;
-    }
+/* 332px */
 
-    .footer-bottom ul li {
-        font-size: 15px; /* Adjust font size for smaller screens */
-        margin: 0 5px; /* Adjust margin for smaller screens */
+@media screen and (max-width: 332px) {
+    .panda-sect .custom-button1 {
+        font-size: 13px;
     }
 
 }
@@ -173,55 +226,52 @@
 /* 767px */
 @media screen and (max-width: 767px) {
 
-    .group-1, .group-2 {
-        margin-top: 10px; /* Reduce margin for small screens */
-    }
-    .group-1 .l-img{
-        width: 90%;
-    
-    }
-    .group-1 .r-img{
-        width: 90%;
-    
+    .group-1,
+    .group-2 {
+        margin-top: 10px;
     }
 
-    .group-1, .group-2, .img-overlay {
-        width: 80%; /* Adjust width for small screens */
+    .group-1 .l-img {
+        width: 90%;
+
+    }
+
+    .group-1 .r-img {
+        width: 90%;
+
+    }
+
+    .group-1,
+    .group-2,
+    .img-overlay {
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
-    .group-2 .img-overlay{
+
+    .group-2 .img-overlay {
         width: 50%;
-       left: 30px;
-    }
-    .group-2 .vec-1, .group-2 .vec-2 {
-        margin-left: 10px; /* Remove margin for small screens */
-        width: 70%;
+        left: 30px;
     }
 
-    .foot-img img{
+
+    .group-2 .vec-1,
+    .group-2 .vec-2 {
+        margin-left: 10px;
+        width: 70%;
+    }
+    .cards .card {
+        margin: 10px;
+        
+    }
+
+    #card-images .card {
+        margin: auto;
+        width: 100%;
+    }
+
+    .foot-img img {
         display: none;
     }
 
 }
-
-
-/* 375px */
-@media screen and (max-width: 375px) {
-
-
-    .cards .bg-btn{
-        font-size: 13px;
-        font-weight: 600;
-        padding: 10px 20px;
-    }
-
-   .footer-bottom .copyright{
-    font-size: 13px;
-    align-items: center;
-    padding-top: 10px;
-   }
-
-
-}
-
