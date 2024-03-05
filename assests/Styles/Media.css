@@ -142,6 +142,7 @@
 
         .hola {
             position: absolute;
+            /* background-image: url(/assests/Images/Ellipse\ 2.png); */
             background-image: url(/assests/Images/Ellipse\ 2.png);
             filter: blur(100px);
             right: 0;
@@ -152,6 +153,7 @@
 
         .sideblur {
             position: absolute;
+            /* background-image: url(/assests/Images/Ellipse\ 3.png); */
             background-image: url(/assests/Images/Ellipse\ 3.png);
             filter: blur(100px);
             left: 0;
@@ -187,6 +189,7 @@
     }
     .sideblur {
         position: absolute;
+        /* background-image: url(/assests/Images/Ellipse\ 3.png); */
         background-image: url(/assests/Images/Ellipse\ 3.png);
         filter: blur(100px);
         left: 0;
