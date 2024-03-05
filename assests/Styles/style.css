@@ -70,6 +70,7 @@ html {
 
 .hola {
     position: absolute;
+    /* background-image: url(/assests/Images/Ellipse\ 2.png); */
     background-image: url(/assests/Images/Ellipse\ 2.png);
     box-shadow: 2px 2px 5px rgba(202, 194, 194, 0.87);
     filter: blur(80px);
@@ -83,6 +84,7 @@ html {
 
 .sideblur {
     position: absolute;
+    /* background-image: url(/assests/Images/Ellipse\ 3.png); */
     background-image: url(/assests/Images/Ellipse\ 3.png);
     filter: blur(80px);
     left: 0;
